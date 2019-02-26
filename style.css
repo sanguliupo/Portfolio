@@ -1,0 +1,36 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%; 
+}
+
+
+.blue-background{
+  background-color: #B0E0E6
+}
+.purple-background{
+  background-color: #DDA0DD
+}
+.gray-background{
+  background-color: gray  
+}
+
+.btn-round{
+  border-radius: 50%
+}
+
+.round{
+  border-radius:50%
+}
+h1{
+  font-family: Arial
+}
+p{
+  font-family: Arial
+}
+
+img{
+  width: 80%;
+  margin:10px auto;
+}
