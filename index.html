@@ -1,90 +1,101 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
-<div class="container-fluid">
-<div class="gray-background">
-   <button class="btn pull-right" id="contact-button"><a href=#ContactMe>Contact</a></button>
-     <button class="btn pull-right" id="portfolio-button"><a href=#Portfolio>Portfolio</a></button>
-     <button class="btn pull-right" id="about-button"><a href=#gray-background>About</a></button>
-</div>
-  
-<div class="gray-background" id="gray-background">
-  <!--header-->
-  <div class="row">
-    <div class="col-md-8 text-center">
-        <p style=font-size:20px>Technical Writer, engineer, and coder.</p>
-    </div>
-  
-    <div class="col-md-4">
-        <img src="https://bit.ly/fcc-relaxing-cat" class="round" style= width:30%>
-    </div>
-    <p style="margin-bottom:1.5em"></p>
-  </div>
-</div>
+    <div class="container-fluid">
+      <!--Buttons-->
+      <div class="gray-background">
+        <button class="btn pull-right" id="contact-button"><a href=#ContactMe>Contact</a></button>
+        <button class="btn pull-right" id="portfolio-button"><a href=#Portfolio>Portfolio</a></button>
+        <button class="btn pull-right" id="about-button"><a href=#gray-background>About</a></button>
+      </div>
 
-<div class="blue-background">
-  <h1 class="text-center" id="Portfolio" style="padding-bottom:1.5em; padding-top:1.5em">Portfolio</h1>
-  
-   <div class="row">
-      <div class="col-md-6">
-        <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
-                <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
-      </div>
-      
-      <div class="col-md-6">
-        <img src="https://lh3.googleusercontent.com/dozM3OnKbEWZc1E_odvRuxamYllmnEH5hD-noQxu9FQdQnXH2kSr8XI7dQ4fYagqMHwA6sKXDcNsunlmFoUcMPRFN5aZ2Csyd7MNUdmmp7ekYVRgHGRDfQUlHrO9zj9o-27e0XcjOluY4fbj-Ef_7k_1OZr3QGbXCMrXh9m5KdRRX57t7v-DXFCm02u7CIiXB1nkSziJU6IX8JKgz4wqsc2Qz2d6cco8MpqWrpq5ZbVagGoHleL5EkNpXrCqv-JTPg-4H1v3q3VDPd9RZEu0-_a7J4krciPsiedgfd9xLxQ8tkRF8MySQxOwvID4obgxfOSLrz0L1yxfO9cfw1jJUIl7BTrgx8b2ggRL7aM1OWsLsgdBnf0MBUj-WeSx9DJI3E58YepX9p-xJT6lob8G2GMxJTjU65c8-QYzSOFHNTZFDHwYgCpFBluyQSWooju1wCkNdpCh7R1EPR8pHVKSH9DvRpmCipcn6PE_2H-9DKlxZPDTr5t68wDvEL5S3u4b6oBOwbrdQ6LjinTJbcacx_RV97_32vn9nG4DW03Y6HWRvRhv9AbhmNO-yHeKSGNf909ibpxv9dhlNc01ZYCPdYPkPNslacChGOpi28DhV1s5H39JGGBsCku-Zb5jZAzPKmFATG1PgwulTu-VcY0n7G93dOc9UYnn8g=w2560-h1154-no" class="img-responsive">
-                <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
-      </div>
-   </div>
-     
-             
-</div>
+      <!--header-->
+      <div class="gray-background" id="gray-background">  
+        <div class="row">
+          <div class="col-md-8 text-center">
+            <p style=font-size:20px>Software Engineer</p>
+          </div>
 
-<div>
-  <h1 class="text-center" style="margin-top:1.5em; margin-bottom:1.5em" id="ContactMe">Contact Me</h1>
-  
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      
-      <div class="col-md-8">
-    <div class="row">
-      
-      <div class="col-md-2">
-        <p>Name:</p>
-        <p>Email:</p>
-        <p>Message:</p>
-      </div>
-      
-      <div class="col-md-4">
-        <form action="/submit-name">
-        <input type="text">
-        </form>
-        <form action="/submit-email">
-        <input type="text">
-        </form>
-        <form action="/submit-message">
-        <input type="text">
-        </form>
-      </div>
-      
-      <div class="col-md-6">
-        Want to get in touch with me? Feel free to message me.</br>
-      <p style="margin-top:2.5em"></p>
-        <button class="btn btn-round btn-secondary"> <a href="https://www.linkedin.com/in/vanessa-wang-29709691/" target='_blank'><i class="fa fa-linkedin"></i></a> </button>
-  <button class="btn btn-round btn-secondary"><a href="https://www.instagram.com/elonmusk/?hl=en" target='_blank'><i class="fa fa-instagram"></i></a></button>
-  <button class="btn btn-round btn-secondary"><a href="https://twitter.com/elonmusk" target='_blank'><i class="fa fa-twitter"></i></a></button>
-      </div>
-      
-      <button class="btn" type="submit" style="margin-left:0.5em">Send</button>
-      </div>
-       
-      <div class="col-md-2">
-      </div>
+          <div class="col-md-4">
+            <img src="https://bit.ly/fcc-relaxing-cat" class="round" style= width:20%>
+          </div>
         
-    </div>
+          <p style="margin-bottom:1.5em"></p>
+        </div>
+      </div>
+
+      <!--Portfolio-->
+      <div class="blue-background">
+        <h1 class="text-center" id="Portfolio" style="padding-bottom:1.5em; padding-top:1.5em">Portfolio</h1>
+        <div class="row">
+            <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
+            <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
+            <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
+            <img src="https://fthmb.tqn.com/R2WFOHTNP3ZzuGCI36p2aVlXuDc=/300x0/filters:format(webp)/hello-kitty-portal-brain-5852af125f9b586e02bb2646.png" class="img-responsive">
+
+       </div>           
+      </div>
+
+      <!--Contact Me-->
+      <div>
+        <h1 class="text-center" style="margin-top:1.5em; margin-bottom:1.5em" id="ContactMe">Contact Me</h1>
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          
+          <div class="col-md-8">
+          <div class="row">
+          
+          <div class="col-md-2">
+            <p>Name:</p>
+            <p>Email:</p>
+            <p>Message:</p>
+          </div>
+          
+          <div class="col-md-4">
+            <form action="/submit-name">
+              <input type="text">
+            </form>
+            <form action="/submit-email">
+              <input type="text">
+            </form>
+            <form action="/submit-message">
+             <input type="text">
+            </form>
+          </div>
+          
+          <div class="col-md-6">
+            Want to get in touch with me? Feel free to message me.</br>
+            <p style="margin-top:2.5em"></p>
+            <button class="btn btn-round btn-secondary"> <a href="https://www.linkedin.com/in/vanessa-wang-29709691/" target='_blank'><i class="fa fa-linkedin"></i></a> </button>
+            <button class="btn btn-round btn-secondary"><a href="https://www.instagram.com/elonmusk/?hl=en" target='_blank'><i class="fa fa-instagram"></i></a></button>
+            <button class="btn btn-round btn-secondary"><a href="https://twitter.com/elonmusk" target='_blank'><i class="fa fa-twitter"></i></a></button>
+          </div>
+          
+            <button class="btn" type="submit" style="margin-left:0.5em">Send</button>
+          </div>
+           
+          <div class="col-md-2">
+          </div>
+            
+          </div>
+          </div>
+
+          <p style="margin-bottom:2.5em"></p>
+        </div>
+      </div>
     </div>
 
-  <p style="margin-bottom:2.5em"></p>
-</div>
-</div>
+</body>
+</html>
+
